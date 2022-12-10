@@ -1,0 +1,118 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-padding{
+    padding: 100px 0px;
+}
+.form-control{
+    height: 50px;
+    border: 1.5px solid rgba(2, 2, 49, 0.1) !important;
+    border-radius: 2px !important;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: rgba(2, 2, 49, 0.1) !important;
+    outline: 0;
+    box-shadow:none !important;
+}
+.btn_form{
+    color: #fff;
+    text-decoration: none;
+}
+.row h2{
+    margin-top: 35px;
+}
+.form-control{
+    margin-top: 15px;
+}
+.my-name{
+    background-color: #020231;
+}
+.my-name-2{
+    background-color: #FF5E14;
+}
+.somoy{
+    margin-left: 10px;
+}
+.ami-1{
+    margin-top: 12px;
+}
+/*header*/
+.main-header img{
+    position: absolute;
+    background-size: cover;
+}
+.text{
+    position: relative;
+    color: #fff;
+}
+.text{
+    margin-left: 535px;
+    padding-top: 345px;
+}
+.text h2{
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50%;
+}
+.text h1{
+    font-size: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.text p{
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+button{
+    font-size: 32px;
+    line-height: 1px;
+    padding: 10px;
+    margin: 30px;
+    width: 185px;
+    cursor: pointer;
+    background: #FF5E14;
+    border-radius: none;
+    color: #fff;
+    border: none;
+    padding-top: 20px;
+}
+.button .btn-2{
+    background: linear-gradient(90deg, #01011C 0%, rgba(1, 1, 28, 0) 100%);
+    border: none;
+}
+.button .btn-1 img{
+    padding-left: 10px;
+    padding-top: 8px;
+}
+@media only screen and (max-width:426px){
+    .row .ami-1{
+        padding-left: 150px;
+        color: green;
+    }
+}
+.row .my-name .call-me:hover{
+    background-color: #5e14ff;
+    color: #fff;
+}
+.row .my-name-2 .call-me-2:hover{
+    background-color: green;
+    color: #fff;
+}
+.maindd .form-control:hover{
+    background-color: #FF5E14;
+}
+.maindd .form-control{
+    background-color: #020231;
+}
